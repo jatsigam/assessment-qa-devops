@@ -35,6 +35,3 @@ test('clicking an “Add to Duo” button displays the div with id = player-duo'
     const displayed = await playerDuo.isDisplayed()
     expect(displayed).toBe(true)
 })
-
-
-// Check that when a bot is “Removed from Duo”, that it goes back to “choices”
