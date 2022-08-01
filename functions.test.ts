@@ -12,4 +12,6 @@ describe('shuffleArray should', () => {
     test("check that the items have been shuffled around", () => {
         expect(shuffleArray(newArr)).not.toEqual(newArr)
     });
+    
 })
+
